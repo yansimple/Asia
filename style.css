@@ -135,17 +135,25 @@ ul li {
     text-decoration: none;
     color: #fff;
 }
-
+.offers__header{
+    display: inline-block;
+}
 .section {
     width: 362px;
     background: #FFFFFF;
     border-radius: 0px 0px 5px 5px;
     color: #000000;
     display: inline-block;
-    margin-right: 27px;
+    margin-right: 10px;
 }
+
+.last__section {
+   margin-right: 0px; 
+}
+
 .section__img {
     margin: 0;
+
 }
 .offers__info {
     padding: 33px 28px 36px;
