@@ -6,7 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     background: url(./img/1.png);
 }
-
+* {
+    box-sizing: border-box;
+}
 a {
     color: inherit;
 }
@@ -126,6 +128,7 @@ ul li {
     
 }
 .btn a {
+    display: inline-block;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -134,6 +137,9 @@ ul li {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff;
+}
+.btn__offers{
+    padding: 0px;
 }
 .offers__header{
     display: inline-block;
@@ -156,7 +162,7 @@ ul li {
 
 }
 .offers__info {
-    padding: 33px 28px 36px;
+    padding: 33px 28px 0px;
     position: relative;
 }
 
@@ -178,7 +184,7 @@ ul li {
     width: 26px;
     height: 26px;
     margin: 0;
-    margin-right: 10px;
+    
     position: absolute;
     left: 26px;
 }
@@ -190,10 +196,25 @@ ul li {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    width: 90px;
 
+}
+
+.breakfast {
+    display: inline-block;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 90px; 
 }
 
 .btn__offers {
     margin: 24px auto 26px;
+    text-align: center;
+}
+
+.btn-wrapper {
     text-align: center;
 }
