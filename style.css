@@ -218,3 +218,50 @@ ul li {
 .btn-wrapper {
     text-align: center;
 }
+
+.news__window {
+    height: 394px;
+    width: 557px;
+    background: url(./img/plain.png);
+    position: relative;
+    display: inline-block;
+}
+
+.news__text {
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.paper {
+    text-align: center;
+}
+
+.paper__number, .paper__list {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.paper__item {
+    display: inline-block;
+}
+.paper__item--link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-decoration: none;
+    line-height: 32px;
+
+}
+
+.paper__item--active .paper__item--link{
+    color: #F5170E;
+    background-color: #fff;
+}
+
+.paper__item--link:hover {
+    color: #F5170E;
+    background-color: #fff; 
+}
