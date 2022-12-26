@@ -241,9 +241,12 @@ ul li {
     display: inline-block;
     vertical-align: middle;
 }
-
+.paper{
+    margin-top: 58px;
+}
 .paper__item {
     display: inline-block;
+    
 }
 .paper__item--link {
     display: block;
