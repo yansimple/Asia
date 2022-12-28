@@ -305,11 +305,9 @@ ul li {
     position: relative;
     width: 785px;
     height: 455px;
-    background: url(./img/mountains.png) center center / no-repeat;
-    margin-top: 124px;
+    margin-top: -400px;
+    margin-left: 350px;
     position: absolute;
-    top: 1770px;
-    left: 434px;
 }
 
 .about__desc {
@@ -319,6 +317,10 @@ ul li {
     
 }
 
-.about__img {
-    opacity: 0.5;
+.about__subimg {
+    width: 490px;
+    height: 505px;
+    border-radius: 5px;
 }
+
+
