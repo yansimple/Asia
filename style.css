@@ -4,7 +4,8 @@ body {
     background: #001821;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    background: url(./img/1.png);
+    background: url(./img/1.png) no-repeat;
+    background-color:#000000;
 }
 * {
     box-sizing: border-box;
@@ -296,4 +297,28 @@ ul li {
 .paper__item--link:hover {
     color: #F5170E;
     background-color: #fff; 
+}
+.about__hero {
+    position: relative;
+}
+.about {
+    position: relative;
+    width: 785px;
+    height: 455px;
+    background: url(./img/mountains.png) center center / no-repeat;
+    margin-top: 124px;
+    position: absolute;
+    top: 1770px;
+    left: 434px;
+}
+
+.about__desc {
+    position: absolute;
+    margin-bottom: 0px;
+    bottom: 0px;
+    
+}
+
+.about__img {
+    opacity: 0.5;
 }
