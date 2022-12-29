@@ -244,6 +244,7 @@ ul li {
     margin-bottom: 0px;
     position: absolute;
     bottom: 0px;
+    padding: 0px 30px 30px 26px;
 }
 .news__data {
     font-weight: 400;
@@ -314,7 +315,14 @@ ul li {
     position: absolute;
     margin-bottom: 0px;
     bottom: 0px;
+    padding: 0px 81px 43px;
     
+}
+.about__title {
+    color: #000000;
+}
+.about__desc-text {
+    color: #000;
 }
 
 .about__subimg {
@@ -329,4 +337,38 @@ ul li {
 
 .footer {
     margin-top: 54px;
+    height: 100px;
+    position: relative;
+}
+.menu__item--footer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__item--link--foooter {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.menu__item--link--foooter:hover {
+    color: #DA0100;
+}
+
+.logo__footer {
+    position: absolute;
+    bottom: 75px;
+}
+
+.social {
+    text-align: right;
+}
+
+.social__item {
+    display: inline-block;
+}
+.contacts__footer {
+    display: inline-block;
+    text-align: right;
 }
