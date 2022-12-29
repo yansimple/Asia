@@ -339,6 +339,7 @@ ul li {
     margin-top: 54px;
     height: 100px;
     position: relative;
+    border-top: #FFFFFF;
 }
 .menu__item--footer {
     display: inline-block;
@@ -371,4 +372,12 @@ ul li {
 .contacts__footer {
     display: inline-block;
     text-align: right;
+    right: 0px;
+}
+
+.free__call {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
 }
