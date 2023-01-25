@@ -24,35 +24,43 @@ a {
     margin: 0 auto;
 }
 .header {
-    height: 100px;
-    position: relative;
+    padding-top: 45px;
+    display: flex;
 }
 
 .logo {
-    display: block;
-    position: absolute;
-    top: 29px;
-    left: 0px;
+    margin-right: 100px;
 }
 
 
 
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
 .menu {
-    position: absolute;
-    left: 79px;
-    top: 42px;
+    
 }
 
 .contacts {
-    position: absolute;
-    right: 0px;
     top: 26.64px;
 }
 
 ul {
     margin: 0;
     padding: 0;
-    margin-left: 79px;
+    
 }
 
 ul li {
@@ -128,6 +136,16 @@ ul li {
     height: 55px;
     
 }
+
+.btn:hover {
+    background:#DA0100;
+    color: #fff;
+}
+
+.btn a:hover {
+    
+}
+
 .btn a {
     display: inline-block;
     font-family: 'Open Sans';
@@ -142,6 +160,16 @@ ul li {
 .btn__offers{
     padding: 0px;
 }
+.btn__white{
+    background: #fff;
+    color: #DA0100;
+    
+}
+
+.btn__white a {
+    color: #F5170E;
+}
+
 .offers__header{
     display: inline-block;
 }
@@ -162,6 +190,12 @@ ul li {
     margin: 0;
 
 }
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
 .offers__info {
     padding: 33px 28px 0px;
     position: relative;
@@ -220,12 +254,19 @@ ul li {
     text-align: center;
 }
 
+
+
 .news__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 49px;
     margin-top: 127px;
     margin-bottom: 51px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .news__window {
@@ -336,14 +377,27 @@ ul li {
 }
 
 .footer {
-    margin-top: 54px;
-    height: 100px;
-    position: relative;
+    display: flex;
+    padding-top: 150px;
     border-top: #FFFFFF;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.footer__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__footer {
+    margin-left: 50px;
+}
+
 .menu__item--footer {
     display: inline-block;
     vertical-align: middle;
+
 }
 
 .menu__item--link--foooter {
@@ -357,22 +411,19 @@ ul li {
     color: #DA0100;
 }
 
-.logo__footer {
-    position: absolute;
-    bottom: 75px;
-}
-
 .social {
     text-align: right;
 }
 
 .social__item {
     display: inline-block;
+    margin-right: 10px;
 }
 .contacts__footer {
     display: inline-block;
     text-align: right;
-    right: 0px;
+    margin-left: 50px;
+
 }
 
 .free__call {
@@ -383,8 +434,18 @@ ul li {
 }
 
 .offers__list li { 
-    display: inline-block;
+    
 }
 .offers__list li:nth-child(3) {
     margin-right: 0px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__col--right {
+    justify-content: flex-end;
+    align-items: center;
 }
