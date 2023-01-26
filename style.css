@@ -381,21 +381,9 @@ ul li {
 }
 
 .footer {
-    display: flex;
-    padding-top: 150px;
-    border-top: #FFFFFF;
-    padding-bottom: 50px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer__col {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.nav__footer {
-    margin-left: 50px;
+    margin-top: 54px;
+    height: 100px;
+    position: relative;
 }
 
 .menu__item--footer {
@@ -426,30 +414,4 @@ ul li {
 .contacts__footer {
     display: inline-block;
     text-align: right;
-    margin-left: 50px;
-
-}
-
-.free__call {
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 20px;
-    color: #9A9A9A;
-}
-
-.offers__list li { 
-    
-}
-.offers__list li:nth-child(3) {
-    margin-right: 0px;
-}
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer__col--right {
-    justify-content: flex-end;
-    align-items: center;
 }
