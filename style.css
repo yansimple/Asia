@@ -172,6 +172,9 @@ ul li {
 
 .offers__header{
     display: inline-block;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 246px;
 }
 .section {
     width: 362px;
@@ -213,6 +216,7 @@ ul li {
 }
 .flame {
     display: inline;
+    height: 28px;
 }
 .item__img {
     display: inline-block;
