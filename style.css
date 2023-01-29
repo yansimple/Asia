@@ -16,6 +16,10 @@ a {
 .wrapper {
     width: 1142px;
     margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
     
     
 }
@@ -211,7 +215,7 @@ ul li {
     font-size: 24px;
     line-height: 33px;
     margin: 10px 22px 21px;
-    display: inline;
+    
    
 }
 .flame {
@@ -219,7 +223,7 @@ ul li {
     height: 28px;
 }
 .item__img {
-    display: inline-block;
+    
     width: 26px;
     height: 26px;
     margin: 0;
@@ -258,6 +262,11 @@ ul li {
     text-align: center;
 }
 
+.off__item-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 .news__title {
@@ -381,7 +390,8 @@ ul li {
 }
 
 .footer {
-    margin-top: 54px;
+    margin-top: auto;
+    margin-bottom: 0px;
     height: 100px;
     position: relative;
 }
