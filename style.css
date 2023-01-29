@@ -429,6 +429,7 @@ ul li {
 .footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 54px;
 }
 
 .footer__col {
