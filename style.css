@@ -4,7 +4,7 @@ body {
     background: #001821;
     color: #fff;
     -webkit-font-smoothing: antialiased;
-    background: url(./img/1.png) no-repeat;
+    
     background-color:#000000;
 }
 * {
@@ -16,11 +16,10 @@ a {
 .wrapper {
     width: 1142px;
     margin: 0 auto;
-    min-height: 100vh;
+    
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    
+    min-height: 100vh;
     
 }
 .container {
@@ -430,6 +429,7 @@ ul li {
     display: flex;
     justify-content: space-between;
     margin-top: 54px;
+    flex-grow: 1;
 }
 
 .footer__col {
