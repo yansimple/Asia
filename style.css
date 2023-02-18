@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    background: #001821;
-    color: #fff;
+    
     -webkit-font-smoothing: antialiased;
     
-    background-color:#000000;
 }
 * {
     box-sizing: border-box;
@@ -21,6 +19,12 @@ a {
     min-height: 100vh;
     
 }
+
+.wrapper__main {
+    background: #001821;
+    color: #fff;
+}
+
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -490,4 +494,8 @@ ul li {
 
 .wrapper__services {
     background: url(./img/headline\ 1.png) right top no-repeat;
+}
+
+.nav__footer {
+    margin-left: 100px;
 }
