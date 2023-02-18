@@ -19,7 +19,7 @@ a {
 }
 
 .wrapper__main {
-    background: #001821;
+    background: #001821 url(./img/1.png) center top no-repeat;
     color: #fff;
 }
 
