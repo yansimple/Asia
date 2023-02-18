@@ -16,11 +16,14 @@ a {
     
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    
 }
 
 .wrapper__main {
+    background: #001821;
+    color: #fff;
+}
+
+.wrapper__services {
     background: #001821;
     color: #fff;
 }
@@ -498,4 +501,47 @@ ul li {
 
 .nav__footer {
     margin-left: 100px;
+}
+
+
+.services__item {
+    display: flex;
+    padding: 20px;
+}
+.services__content {
+    padding-left: 50px;            
+}
+.services__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: 0px;
+}
+
+.service__desc {
+    font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+
+color: #303030;
+
+}
+
+.services {
+    padding: 50px 50px;
+}
+
+.paper__item--active--services .paper__item--link--services{
+    color: #FFFFFF;
+    background-color: #F5170E;
+}
+
+.paper__item--link--services:hover {
+    color: #FFFFFF;
+    background-color: #F5170E; 
+}
+
+.wrapper__footer {
+    background: #001821;
+    color: #FFFFFF;
 }
