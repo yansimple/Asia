@@ -26,6 +26,13 @@ a {
 .wrapper__services {
     background: #001821;
     color: #fff;
+    background: url(./img/headline\ 1.png);
+}
+
+.wrapper__reviews {
+    background: #001821;
+    color: #fff;
+    background: url(./img/headline\ 1.png);
 }
 
 .container {
@@ -544,4 +551,23 @@ color: #303030;
 .wrapper__footer {
     background: #001821;
     color: #FFFFFF;
+}
+
+.main__reviews {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header__reviews {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    margin-top: 50px;
+}
+
+.wrapper__reviews {
+    background: url(./img/headline\ 1.png) center no-repeat;
 }
